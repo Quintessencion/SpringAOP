@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:component-scan base-package="training.*"/>
+    <aop:aspectj-autoproxy/>
+
+    <aop:config>
+        <aop:aspect id="Log" ref="myLogger">
+            <!--&lt;!&ndash;<aop:pointcut id="allMethods" expression="execution(public * *(..))"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<aop:around method="watchTime" pointcut-ref="allMethods"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<aop:after-returning method="print" pointcut-ref="allMethods" returning="obj"/>&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<aop:around pointcut="execution(public * *(..))" method="watchTime"/>&ndash;&gt;-->
+
+
+            <!--&lt;!&ndash;<aop:pointcut id="getValue" expression="execution(* training.objects.SomeService.*(..))"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<aop:before pointcut-ref="getValue" method="init"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<aop:after pointcut-ref="getValue" method="close"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<aop:after-returning pointcut-ref="getValue" returning="obj" method="printValue"/>&ndash;&gt;-->
+        </aop:aspect>
+    </aop:config>
+
+</beans>

@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Spring-4.3.7.RELEASE" type="spring">
+    <properties version="4.3.7.RELEASE" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-aspects-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-aop-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-beans-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-context-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-context-support-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-expression-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-instrument-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-core-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-instrument-tomcat-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-jdbc-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-jms-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-messaging-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-oxm-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-test-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-tx-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/spring-orm-4.3.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SAM/lib/aopalliance-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
