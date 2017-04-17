@@ -14,23 +14,9 @@ import java.util.Set;
 @Aspect
 public class MyLogger {
 
-    //    public void printValue(Object obj) {
-//        System.out.println(obj);
-//    }
-//
-//    public void init() {
-//        System.out.println("init");
-//    }
-//
-//    public void close(){
-//        System.out.println("close");
-//    }
     @Pointcut("execution(* *(..))")
     private void allMethods() {
-
     }
-
-    ;
 
     @Around("allMethods() && @annotation(training.annotation.ShowTime)")
     public Object watchTime(ProceedingJoinPoint joinPoint) {

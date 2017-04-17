@@ -15,17 +15,17 @@
 
     <aop:config>
         <aop:aspect id="Log" ref="myLogger">
-            <!--&lt;!&ndash;<aop:pointcut id="allMethods" expression="execution(public * *(..))"/>&ndash;&gt;-->
-            <!--&lt;!&ndash;<aop:around method="watchTime" pointcut-ref="allMethods"/>&ndash;&gt;-->
-            <!--&lt;!&ndash;<aop:after-returning method="print" pointcut-ref="allMethods" returning="obj"/>&ndash;&gt;-->
+            <!--<aop:pointcut id="allMethods" expression="execution(public * *(..))"/>-->
+            <!--<aop:around method="watchTime" pointcut-ref="allMethods"/>-->
+            <!--<aop:after-returning method="print" pointcut-ref="allMethods" returning="obj"/>-->
 
-            <!--&lt;!&ndash;<aop:around pointcut="execution(public * *(..))" method="watchTime"/>&ndash;&gt;-->
+            <!--<aop:around pointcut="execution(public * *(..))" method="watchTime"/>-->
 
 
-            <!--&lt;!&ndash;<aop:pointcut id="getValue" expression="execution(* training.objects.SomeService.*(..))"/>&ndash;&gt;-->
-            <!--&lt;!&ndash;<aop:before pointcut-ref="getValue" method="init"/>&ndash;&gt;-->
-            <!--&lt;!&ndash;<aop:after pointcut-ref="getValue" method="close"/>&ndash;&gt;-->
-            <!--&lt;!&ndash;<aop:after-returning pointcut-ref="getValue" returning="obj" method="printValue"/>&ndash;&gt;-->
+            <!--<aop:pointcut id="getValue" expression="execution(* training.objects.SomeService.*(..))"/>-->
+            <!--<aop:before pointcut-ref="getValue" method="init"/>-->
+            <!--<aop:after pointcut-ref="getValue" method="close"/>-->
+            <!--<aop:after-returning pointcut-ref="getValue" returning="obj" method="printValue"/>-->
         </aop:aspect>
     </aop:config>
 
