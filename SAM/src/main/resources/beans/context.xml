@@ -11,10 +11,10 @@
        http://www.springframework.org/schema/aop/spring-aop.xsd">
 
     <context:component-scan base-package="training.*"/>
-    <aop:aspectj-autoproxy/>
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
 
     <aop:config>
-        <aop:aspect id="Log" ref="myLogger">
+        <!--<aop:aspect id="Log" ref="myLogger">-->
             <!--<aop:pointcut id="allMethods" expression="execution(public * *(..))"/>-->
             <!--<aop:around method="watchTime" pointcut-ref="allMethods"/>-->
             <!--<aop:after-returning method="print" pointcut-ref="allMethods" returning="obj"/>-->
@@ -26,7 +26,7 @@
             <!--<aop:before pointcut-ref="getValue" method="init"/>-->
             <!--<aop:after pointcut-ref="getValue" method="close"/>-->
             <!--<aop:after-returning pointcut-ref="getValue" returning="obj" method="printValue"/>-->
-        </aop:aspect>
+        <!--</aop:aspect>-->
     </aop:config>
 
 </beans>
